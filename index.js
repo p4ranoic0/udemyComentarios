@@ -6,7 +6,7 @@ const app = express(); //creamos el servidor
 
 conectarDB(); //Estableciendo conexion con la base de datos
 
-app.use(express.static("public")); //directorios publicos
+app.use(express.static('public')); //directorios publicos
 // app.get("/", (req, res) => {
 //   res.send("Hola mundo desde nodejs con express");
 // });
